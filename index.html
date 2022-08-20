@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Trabajo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/68db74a3f7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="nav-main">
+            <nav>
+                <img src="img/Logo.png" alt="">
+                <ul id="topmenu">
+                    <h2>Menu</h2>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Proyectos</a></li>
+                    <li><a href="#">RRSS</a></li>
+                    <li><a href="#">Consultas</a></li>
+                    <i class="fa-solid fa-xmark" onclick="close_menu()"></i>
+                </ul>
+                <div class="icon">
+                    <i class="fa-solid fa-bars" onclick="open_menu()"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="main-title">
+            <h1 class="title">Hola, me llamo Marcelo Santana</h1>
+        </div>
+        <div onclick="location.href='#about'" class="btn">Acerca de mi</div>
+    </section>
+    <div class="about-me" id="about">
+        <div class="container">
+            <h2>Mi nombre es<br><span>Marcelo Santana</span></h2>
+            <p>Tengo 17 años de edad y llevo dos años estudiando Programación (Java, C++, HTML5, CSS3 y JavaScript)</p><br>
+            <p>Actualmente soy estudiante de el <a href="https://www.fundacionelpilar.cl/web/"> Liceo Comercial El Pilar</a>, estudiando Programación con el Profesor <a href="http://miportaleducativo.cl/">Mauricio Triviño</a></p>
+
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
